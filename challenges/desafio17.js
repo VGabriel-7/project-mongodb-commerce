@@ -1,4 +1,4 @@
-b.resumoProdutos.insert({
+db.resumoProdutos.insert({
   franquia: "McDonalds",
   totalProdutos: db.produtos.countDocuments({}),
 });
