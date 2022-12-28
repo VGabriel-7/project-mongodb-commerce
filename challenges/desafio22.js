@@ -9,7 +9,7 @@ db.produtos.updateMany(
     vendasPorDia: {
       $each: [60],
       $position: 3,
-    }
+    },
   } },
 );
 
@@ -19,7 +19,7 @@ db.produtos.updateMany(
     vendasPorDia: {
       $each: [120],
       $position: 6,
-    }
+    },
   } },
 );
 
