@@ -1,5 +1,5 @@
 db.produtos.updateOne(
-  { nome: "descricao" },
+  {},
   { $rename: { descricao: "descricaoSite" } },
 );
 
