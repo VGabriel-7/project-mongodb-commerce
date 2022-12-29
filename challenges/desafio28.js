@@ -1,3 +1,3 @@
 db.produtos.countDocuments({
-  infredientes: { $size: 4 },
+  ingredientes: { $size: 4 },
 });
