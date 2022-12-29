@@ -1,4 +1,4 @@
-db.produtos.updateOne(
+db.produtos.updateMany(
   {},
   { $rename: { descricao: "descricaoSite" } },
 );
